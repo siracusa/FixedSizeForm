@@ -12,6 +12,12 @@ struct FixedSizeFormApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .frame(width: 450, height: 300)
+        }
+        .windowResizability(.contentSize)
+
+        Settings {
+            SettingsView()
         }
     }
 }
