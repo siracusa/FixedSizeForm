@@ -7,3 +7,5 @@ This works…until a trivial `NSViewRepresentable` view (`InnocentNSView`) is ad
 If you set “Show scroll bars” to ”Always” in the “Appearance” section of System Settings, you can see the scroll thumb that should not be visible in this view. You can also try scrolling the view to see that it moves up and down a pixel or two. If you [comment out the `InnocentNSView()` in the view code](https://github.com/siracusa/FixedSizeForm/blob/main/FixedSizeForm/SettingsView.swift#L29), the unexpected scrolling goes away and everything works as expected.
 
 See the code in [SettingsView.swift](https://github.com/siracusa/FixedSizeForm/blob/23ec3eb53196d92725c8acc47aa3d35c6a3cb4ac/FixedSizeForm/SettingsView.swift#L24) for more information.
+
+<img src="https://github.com/siracusa/FixedSizeForm/blob/main/screenshot.png?raw=true" width=537 height=626 alt="Screenshot">
