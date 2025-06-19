@@ -8,4 +8,4 @@ If you set “Show scroll bars” to ”Always” in the “Appearance” sectio
 
 See the code in [SettingsView.swift](https://github.com/siracusa/FixedSizeForm/blob/23ec3eb53196d92725c8acc47aa3d35c6a3cb4ac/FixedSizeForm/SettingsView.swift#L24) for more information.
 
-<img src="https://github.com/siracusa/FixedSizeForm/blob/main/screenshot.png?raw=true" width=537 height=626 alt="Screenshot">
+<img src="https://github.com/siracusa/FixedSizeForm/blob/main/screenshot.png?raw=true" width=537 alt="Screenshot">
